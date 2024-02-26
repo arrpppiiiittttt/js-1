@@ -29,3 +29,28 @@ console.log(typeof newArr);
 /*slice returns a piece of the array but it doesn't affect the original array.
  splice changes the original array by removing, replacing, or adding values 
  and returns the affected values.
+ slice() method to create a shallow copy of that array.*/
+ const cities = ["Tokyo","Cairo","Los Angeles","Paris","Seattle"];
+ cities.slice()
+ console.log(cities);
+ const newCityArr = cities.slice(2);
+
+console.log(newCityArr)
+
+//In this example, we will set the start position at -2
+// which will select the last two cities in the array 
+//and return them in a new array.
+const newCityArr1 = cities.slice(-2);
+console.log(newCityArr1);
+////////////////////////splice//////////////////////////
+const food = ['pizza', 'cake', 'salad', 'cookie'];
+
+food.splice(1,0,"burrito")
+
+console.log(food)
+
+
+const foodd = ['pizza', 'cake', 'salad', 'cookie'];
+
+food.splice(2,1)
+console.log(foodd)
