@@ -35,7 +35,7 @@ const users = [
 
     },
 ]
-
+/*
 console.log(tinderuser);
 console.log(Object.keys(tinderuser));
 console.log(Object.values(tinderuser));
@@ -43,3 +43,23 @@ console.log(Object.entries(tinderuser));
 
 console.log(tinderuser.hasOwnProperty('isLoggedIn'));
 console.log(tinderuser.hasOwnProperty('isLogged'));
+*/
+const course = {
+    course_name: "js in hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+// course.courseInstructor
+
+const {courseInstructor} = course   // use of curly braces{} is for object destructuring
+
+console.log(courseInstructor);
+
+//if name is not declared then it is an API otherwise an object
+//both keys and values are treated as strings
+{
+    "name" :"Arpit",
+    "coursename": "JS",
+    "price" :"999"
+
+}
