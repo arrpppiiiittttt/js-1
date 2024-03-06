@@ -57,9 +57,9 @@ console.log(courseInstructor);
 
 //if name is not declared then it is an API otherwise an object
 //both keys and values are treated as strings
-{
-    "name" :"Arpit",
-    "coursename": "JS",
-    "price" :"999"
-
+//{
+//    "name" :"Arpit",
+//    "coursename" : "JS",
+//    "price" :"999"
+//
 }
