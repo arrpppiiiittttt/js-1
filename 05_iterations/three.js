@@ -13,7 +13,7 @@ for (const greet of greetings) {
 }
 
 //Maps
-//maps contain unique values & remembers the order of insertion
+//maps contain unique values & remembers the order of insertion & maps are not iteratable
 const map = new Map()
 map.set('IN',"India")
 map.set('USA',"United States Of America")
