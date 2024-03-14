@@ -5,5 +5,14 @@
 //The reduce() method does not execute the function for empty array elements.
 
 //The reduce() method does not change the original array.
+/*
 const mynums = [1,2,3]
-const mytotal = mynums.reduce(function(accumulator,currentvalue))
+const mytotal = mynums.reduce(function(acc,currval){
+    console.log(`accumulator:${acc} and currentvalue:${currval}`);
+    return acc + currval
+},0)
+console.log(mytotal);
+*/
+const mynums = [1,2,3]
+const mytotal = mynums.reduce((acc,curr)=> acc + curr,0)
+console.log(mytotal);
