@@ -7,6 +7,27 @@
 </head>
 <body>
     <h1>Chai Aur Code</h1>
-    button
+    <button id="stop">Stop</button>
 </body>
+<script>
+    /*setTimeout(function(){
+        console.log("Arpit");
+    },2000)*/
+    /*
+    const sayHitesh = function(){
+        console.log("Hitesh");
+    }
+    */
+   
+    const changeText = function(){
+        document.querySelectorAll('h1').innerHtml='Best JS'
+    }
+    setTimeout(changeText,2000)
+    
+    const changeMe = setTimeout(changeText,2000)
+    document.querySelector('click',function(){
+        clearTimeout(changeMe)
+        console.log("Stopped")
+    })
+</script>
 </html>
